@@ -1,0 +1,45 @@
+
+@media screen and (max-width: 461px) {
+    .titulo h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-widht: 679px) {
+    .servicios  {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 748px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .header nav {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer ul {
+        text-align: center;
+        margin: 15px 0 15px 0;
+
+    }
+}

@@ -1,0 +1,34 @@
+@import "../base/variables";
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+    grid-area: pie;
+    img {
+        width: 150px;
+        height: 100;
+    }
+    h4 {
+        color:$color-principal;
+    
+    }
+    ul {
+        list-style: none;
+    
+        li a {
+            text-decoration: none;
+            font-weight: 300;
+            text-transform: uppercase;
+            color:$color-principal;
+            text-shadow: 2px 2px 2px palevioletred;
+        }
+    }
+}
+.footer div a img {
+    height: 50px;
+    width: 50px;
+}
+.container .footer {
+    grid-row: 4 / 5;
+}

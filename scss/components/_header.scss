@@ -1,0 +1,27 @@
+@import "../base/variables";
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 176, 187);
+    grid-area: cabeza;
+    img {
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+    }
+    nav {
+        display: flex;
+         span {
+            margin: 10px;
+            padding: 10px;
+             a {
+                color:$color-principal ;
+                font-weight: 300;
+                text-transform: uppercase;
+                text-decoration: none;
+                text-shadow: 2px 2px 2px black;
+            }
+         }
+    }
+}
