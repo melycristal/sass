@@ -4,12 +4,20 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body {
-    width: 100%;
-    height: 100vh;
+/***mixins**/
+@mixin cuerpo ($ancho, $alto){
+    height: $alto;
+    width: $ancho;
 }
+.body{@include cuerpo(100%, 100vh);}
+
+/****extends*/
 .border {
     border: solid 1px black;
+}
+.border-green {
+    @extend .border;
+    border: solid 1px green;
 }
 .container {
     display: grid;
@@ -21,4 +29,9 @@ body {
         "cabeza cabeza"
         "cuerpo cuerpo"
         "pie pie";
+}
+.abajo{
+    margin-top: auto;
+    width: 100%;
+    padding: 1em 0;
 }

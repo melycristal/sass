@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE LONG NAILS</title>
+    <title>contacto THE LONG NAILS</title>
     <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
     <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
     <!--CSS FORMA EXTERNA-->
@@ -17,7 +17,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-pink">
             <div class="container-fluid">
                 <div>
                     <a class="navbar-brand" href="#">
@@ -50,20 +50,43 @@
           </nav>
 
     </header>
-    <main>
-        <h1> Contacto</h1>
+    <main class="PaginaContacto">
+        
         <!--formulario-->
         <form>
-            <label for="Nombre Completo"> Nombre Completo:</label>
-            <input type="text" name="Nombre Completo" placeholder="Nombre"><br>
-            <label for="Correo Electronico"> Correo Electronico:</label>
-            <input type="email" name="Correo Electronico" placeholder="Email"><br>
-            <label for="Celular"> Celular:</label>
-            <input type="text" name="Celular" placeholder="Celular"><br>
-            <label for="Comentarios">Comentarios:</label>
-            <textarea name="Comentarios" cols="30" rows="10"></textarea><br>
-            <!--botones-->
-            <input type="submit" value="Enviar Formulario" />
+          <div class="ContenedorForm">
+            <h1> Contacto</h1>
+            <div class="ContenedorWrap">
+                <div class="ContactoForm">
+                    <h2>Contactanos</h2>
+                    <form action="">
+                        <p>
+                            <label for="Nombre completo">Nombre completo</label>
+                            <input type="text" name="Nombre completo" id="Nombre completo">
+                        </p>
+                        <p>
+                            <label>Correo electronico</label>
+                            <input type="text" name="Correo">
+                        </p>
+                        <p> <label>Celular</label>
+                            <input type="tel" name="Celular">
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input type="text" name="Asunto">
+                        </p>
+                        <p class="block">
+                            <label>Mensaje</label>
+                            <textarea name="Mensaje" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit">Enviar</button>
+                        </p>
+                    </form>
+                </div>
+
+        </div>
+        </div>
 
         </form>
 
