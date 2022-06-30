@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melycristal/sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/melycristal/sass/issues"
+  },
+  "homepage": "https://github.com/melycristal/sass#readme",
   "description": ""
 }
